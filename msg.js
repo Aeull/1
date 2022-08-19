@@ -2411,7 +2411,7 @@ Zaki.sendMessage(m.chat, { contacts: { displayName: 'Elaina😁👍', contacts: 
             break            
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	Zaki.sendMessage(`79303894386@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	Zaki.sendMessage(`6287784720840@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -2463,7 +2463,7 @@ case 'menu': {
 
 ╔═══❒ 📚 *INFO*
 ╟> 🍁Name Owner : ${ownername}
-╟> 📃Script Using : Multi Device ( Beta ) Whatsapp
+╟> 📃Script Using : Multi Device ( Beta )
 ╟> 🏜️Today : ${ucapanWaktu}
 ╟> 🤴Creator : FiqzCuy
 ╟> 😁BotName : ${gud}
@@ -2488,6 +2488,7 @@ case 'menu': {
 │✘  ${prefix}kick @user
 │✘  ${prefix}afk
 │✘  ${prefix}antilink
+│✘ ${prefix}antiwame
 │✘  ${prefix}promote @user
 │✘  ${prefix}demote @user
 ❒───────✤✵
@@ -2539,6 +2540,18 @@ case 'menu': {
 │✘ ${prefix}toimage
 │✘ ${prefix}removebg
 ❒───────✤✵
+
+❒──✜✥ 『 *Game Menu* 』✵❖────
+│✘ ${prefix}tictactoe
+│✘ ${prefix}delttc
+│✘ ${prefix}suit
+│✘ ${prefix}tebak kata
+│✘ ${prefix}tebak gambar
+│✘ ${prefix}tebak lirik
+│✘ ${prefix}tebak lagu
+│✘ ${prefix}math
+│✘ ${prefix}family100
+❒───────✤✵`
 
 ❒──✜✥ 『 *Owner Menu* 』✵❖────
 │✘ ${prefix}chat [option]
