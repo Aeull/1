@@ -2381,7 +2381,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMesasage = {
                     image: { url: `http://api.lolhuman.xyz/api/random/${command}?apikey=woaibeijingtiananmen` },
                     caption: `Random image for ${command}`,
-                    footer: "© 2022 || Shikibot",
+                    footer: "© 2022 || PfftDev",
                     buttons: buttonas,
                     headerType: 4
                 }
@@ -2394,8 +2394,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
     + 'VERSION:3.0\n' 
     + 'N:;😁;;;'
     + 'FN:😁\n'
-    + 'ORG:FiqzCuy;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=6287784720840:+62-877-8472-0840\n' 
+    + 'ORG:Elaina😁;\n'
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6287784270840:+6287784720840\n' 
     + 'item1.X-ABLabel:Gtau Hanya Sekedart\n'
     + 'item2.EMAIL;type=INTERNET:helloWorld@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
@@ -2411,7 +2411,7 @@ Zaki.sendMessage(m.chat, { contacts: { displayName: 'Elaina😁👍', contacts: 
             break            
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	Zaki.sendMessage(`6287784720840@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	Zaki.sendMessage(`79303894386@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -2431,7 +2431,7 @@ case 'menu': {
 	let btn = [{
                                 urlButton: {
                                     displayText: 'Go To Owner !',
-                                    url: 'https://wa.me/6287784720840'
+                                    url: 'https://wa.me/16079226124'
                                 }
                             }, {
                             	urlButton: {
@@ -2455,7 +2455,7 @@ case 'menu': {
                                 }
                             }]
                             kahfsj = fs.readFileSync('./media/image/jpg.jpg')
-                        Zaki.send5ButImg(m.chat, txt, "© 2022 || Shikibot", kahfsj, btn, kahfsj)
+                        Zaki.send5ButImg(m.chat, txt, "© 2022 || Elaina bot", kahfsj, btn, kahfsj)
                      }
                      break
            case 'allmenu': case 'listmenu': case 'help': case '?': {
@@ -2465,7 +2465,7 @@ case 'menu': {
 ╟> 🍁Name Owner : ${ownername}
 ╟> 📃Script Using : Multi Device ( Beta )
 ╟> 🏜️Today : ${ucapanWaktu}
-╟> 🤴Creator : FiqzCuy
+╟> 🤴Creator : PfftDev 
 ╟> 😁BotName : ${gud}
 ╟> ⏱️Time : ${time2}
 ╟> 🌟Role : ${role}
@@ -2484,11 +2484,11 @@ case 'menu': {
 │✘  ${prefix}group [option]
 │✘  ${prefix}editinfo [option]
 │✘  ${prefix}grupinfo
+│✘  ${prefix}antilink
+│✘  ${prefix}antiwame
 │✘  ${prefix}add @user
 │✘  ${prefix}kick @user
 │✘  ${prefix}afk
-│✘  ${prefix}antilink
-│✘ ${prefix}antiwame
 │✘  ${prefix}promote @user
 │✘  ${prefix}demote @user
 ❒───────✤✵
@@ -2582,7 +2582,7 @@ case 'menu': {
   fileLength: 99999999999999999,
   jpegThumbnail: global.lol,
   caption: `${anu}`,
-  footer: 'Shikibot || 2022 ❤️',
+  footer: 'Elaina bot || 2022 ❤️',
   templateButtons: button,
   headerType: 4,
   contextInfo:{externalAdReply:{
