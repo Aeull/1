@@ -2381,7 +2381,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMesasage = {
                     image: { url: `http://api.lolhuman.xyz/api/random/${command}?apikey=woaibeijingtiananmen` },
                     caption: `Random image for ${command}`,
-                    footer: "© 2022 || PfftDev",
+                    footer: "© 2022 || Shikibot",
                     buttons: buttonas,
                     headerType: 4
                 }
@@ -2395,7 +2395,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
     + 'N:;😁;;;'
     + 'FN:😁\n'
     + 'ORG:FiqzCuy;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=087784720840:+62-877-8472-0840\n' 
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6287784720840:+62-877-8472-0840\n' 
     + 'item1.X-ABLabel:Gtau Hanya Sekedart\n'
     + 'item2.EMAIL;type=INTERNET:helloWorld@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
@@ -2455,7 +2455,7 @@ case 'menu': {
                                 }
                             }]
                             kahfsj = fs.readFileSync('./media/image/jpg.jpg')
-                        Zaki.send5ButImg(m.chat, txt, "© 2022 || Elaina bot", kahfsj, btn, kahfsj)
+                        Zaki.send5ButImg(m.chat, txt, "© 2022 || Shikibot", kahfsj, btn, kahfsj)
                      }
                      break
            case 'allmenu': case 'listmenu': case 'help': case '?': {
@@ -2465,7 +2465,7 @@ case 'menu': {
 ╟> 🍁Name Owner : ${ownername}
 ╟> 📃Script Using : Multi Device ( Beta ) Whatsapp
 ╟> 🏜️Today : ${ucapanWaktu}
-╟> 🤴Creator : PfftDev 
+╟> 🤴Creator : FiqzCuy
 ╟> 😁BotName : ${gud}
 ╟> ⏱️Time : ${time2}
 ╟> 🌟Role : ${role}
@@ -2487,6 +2487,7 @@ case 'menu': {
 │✘  ${prefix}add @user
 │✘  ${prefix}kick @user
 │✘  ${prefix}afk
+│✘  ${prefix}antilink
 │✘  ${prefix}promote @user
 │✘  ${prefix}demote @user
 ❒───────✤✵
@@ -2568,7 +2569,7 @@ case 'menu': {
   fileLength: 99999999999999999,
   jpegThumbnail: global.lol,
   caption: `${anu}`,
-  footer: 'Elaina bot || 2022 ❤️',
+  footer: 'Shikibot || 2022 ❤️',
   templateButtons: button,
   headerType: 4,
   contextInfo:{externalAdReply:{
