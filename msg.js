@@ -2381,7 +2381,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMesasage = {
                     image: { url: `http://api.lolhuman.xyz/api/random/${command}?apikey=woaibeijingtiananmen` },
                     caption: `Random image for ${command}`,
-                    footer: "© 2022 || PfftDev",
+                    footer: "© 2022 || Shikimori",
                     buttons: buttonas,
                     headerType: 4
                 }
@@ -2394,7 +2394,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
     + 'VERSION:3.0\n' 
     + 'N:;😁;;;'
     + 'FN:😁\n'
-    + 'ORG:Elaina😁;\n'
+    + 'ORG:FiqzCuy;\n'
     + 'item1.TEL;type=CELL;type=VOICE;waid=6287784270840:+6287784720840\n' 
     + 'item1.X-ABLabel:Gtau Hanya Sekedart\n'
     + 'item2.EMAIL;type=INTERNET:helloWorld@gmail.com\n'
@@ -2431,7 +2431,7 @@ case 'menu': {
 	let btn = [{
                                 urlButton: {
                                     displayText: 'Go To Owner !',
-                                    url: 'https://wa.me/16079226124'
+                                    url: 'https://wa.me/6287784720840'
                                 }
                             }, {
                             	urlButton: {
@@ -2455,7 +2455,7 @@ case 'menu': {
                                 }
                             }]
                             kahfsj = fs.readFileSync('./media/image/jpg.jpg')
-                        Zaki.send5ButImg(m.chat, txt, "© 2022 || Elaina bot", kahfsj, btn, kahfsj)
+                        Zaki.send5ButImg(m.chat, txt, "© 2022 || Shikimori", kahfsj, btn, kahfsj)
                      }
                      break
            case 'allmenu': case 'listmenu': case 'help': case '?': {
@@ -2465,7 +2465,7 @@ case 'menu': {
 ╟> 🍁Name Owner : ${ownername}
 ╟> 📃Script Using : Multi Device ( Beta )
 ╟> 🏜️Today : ${ucapanWaktu}
-╟> 🤴Creator : PfftDev 
+╟> 🤴Creator : FiqzCuy
 ╟> 😁BotName : ${gud}
 ╟> ⏱️Time : ${time2}
 ╟> 🌟Role : ${role}
@@ -2484,11 +2484,11 @@ case 'menu': {
 │✘  ${prefix}group [option]
 │✘  ${prefix}editinfo [option]
 │✘  ${prefix}grupinfo
-│✘  ${prefix}antilink
-│✘  ${prefix}antiwame
 │✘  ${prefix}add @user
 │✘  ${prefix}kick @user
 │✘  ${prefix}afk
+│✘  ${prefix}antilink
+│✘ ${prefix}antiwame
 │✘  ${prefix}promote @user
 │✘  ${prefix}demote @user
 ❒───────✤✵
@@ -2506,6 +2506,18 @@ case 'menu': {
 │✘ ${prefix}zippyshare 
 │✘ ${prefix}getmusic
 │✘ ${prefix}getvideo
+❒───────✤✵
+
+❒──✜❖ 『 *Game Menu* 』✵☆────
+│✘ ${prefix}tictactoe
+│✘ ${prefix}delttc
+│✘ ${prefix}suit
+│✘ ${prefix}tebak kata
+│✘ ${prefix}tebak gambar
+│✘ ${prefix}tebak lirik
+│✘ ${prefix}tebak lagu
+│✘ ${prefix}math
+│✘ ${prefix}family100
 ❒───────✤✵
 
 ❒──✜❖ 『 *List Random* 』✵☆────
@@ -2541,18 +2553,6 @@ case 'menu': {
 │✘ ${prefix}removebg
 ❒───────✤✵
 
-❒──✜✥ 『 *Game Menu* 』✵❖────
-│✘ ${prefix}tictactoe
-│✘ ${prefix}delttc
-│✘ ${prefix}suit
-│✘ ${prefix}tebak kata
-│✘ ${prefix}tebak gambar
-│✘ ${prefix}tebak lirik
-│✘ ${prefix}tebak lagu
-│✘ ${prefix}math
-│✘ ${prefix}family100
-❒───────✤✵`
-
 ❒──✜✥ 『 *Owner Menu* 』✵❖────
 │✘ ${prefix}chat [option]
 │✘ ${prefix}join [link]
@@ -2582,7 +2582,7 @@ case 'menu': {
   fileLength: 99999999999999999,
   jpegThumbnail: global.lol,
   caption: `${anu}`,
-  footer: 'Elaina bot || 2022 ❤️',
+  footer: 'Shikibot || 2022 ❤️',
   templateButtons: button,
   headerType: 4,
   contextInfo:{externalAdReply:{
