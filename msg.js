@@ -2395,7 +2395,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
     + 'N:;😁;;;'
     + 'FN:😁\n'
     + 'ORG:FiqzCuy;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=6287784270840:+6287784720840\n' 
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6287784720840:+6287784720840\n' 
     + 'item1.X-ABLabel:Gtau Hanya Sekedart\n'
     + 'item2.EMAIL;type=INTERNET:helloWorld@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
